@@ -1,0 +1,32 @@
+{
+  "skus": [
+    {
+      "name": "30 Days Subscription",
+      "description": "Sample SKU 30 days",
+      "skuId": "sample-sku-30-days",
+      "parentSku": "sample-sku",
+      "price": 69000
+    },
+    {
+      "name": "7 Days Subscription",
+      "description": "Sample SKU 7 days",
+      "skuId": "sample-sku-7-days",
+      "parentSku": "sample-sku",
+      "price": 19000
+    },
+    {
+      "name": "30 Days Promo Subscription",
+      "description": "Sample SKU 30 days Promo Price",
+      "skuId": "sample-sku-30-days-promo",
+      "parentSku": "sample-sku-promo",
+      "price": 49000
+    },
+    {
+      "name": "7 Days Subscription Promo",
+      "description": "Sample SKU 7 days Promo",
+      "skuId": "sample-sku-7-days-promo",
+      "parentSku": "sample-sku-promo",
+      "price": 9000
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+    <TextView
+            android:id="@+id/skuName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/skuPrice"
+            android:text="SKU Name"
+            android:textAlignment="textStart"/>
+
+    <TextView
+            android:id="@+id/skuPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/skuName"
+            android:text="49000"
+            android:textAlignment="textEnd"/>
+
+    <TextView
+            android:id="@+id/skuDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/skuName"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="Description"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

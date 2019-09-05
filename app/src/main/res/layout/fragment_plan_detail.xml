@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".plan.PlanDetailFragment"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp"
+        android:background="@color/white">
+
+    <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true"
+            android:text="This is SKU Title"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+    <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:text="69000"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+    <TextView
+            android:id="@+id/detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:text="This is SKU Description"
+            android:layout_marginBottom="16dp"/>
+
+    <Button
+            android:id="@+id/subscribe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail"
+            android:layout_alignParentRight="true"
+            android:text="Subscribe"
+            android:background="@color/amazonOrange"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+    <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail"
+            android:layout_alignParentLeft="true"
+            android:text="Cancel"
+            android:background="@color/amazonDark"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+</RelativeLayout>
